@@ -10,35 +10,42 @@
  Text Domain:  accelerate-theme-child
 */
 @import url("../accelerate-theme/style.css");
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-
 }
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
-    color: red;
-    height: 30px;
-    padding: 10px 0;
 }
-button {
-    background: none repeat scroll 0 0 #45ac9d;
+.button {
+	background: none repeat scroll 0 0 #45ac9d;
 }
+
+#masthead nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-menu {
+margin:0;
+}
+
+.nav-menu ul li {
+	float:left;
+	margin:0 30px;
+	text-transform:uppercase;
+}
+
+/* blog post on homepage */
+
+.recent-posts {
+	overflow: hidden;
+}
+
 .blog-post {
 	width: 50%;
-	
-	}
-	.blog-post .read-more-link {
-		font-size: 24px;
-		font-family: 'Montserrat';
-		font-weight: bold;
-		color: #45ac9d;
-		text-transform: uppercase;
-	}
-	.blog-post h2 {
-		font-size: 24px;
-		font-family: 'Montserrat';
-		font-weight: bold;
 }
+
 .blog-post h4 {
 	font-size: 16px;
 	font-family: 'Montserrat';
@@ -46,3 +53,128 @@ button {
 	text-transform: uppercase;
 }
 
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+
+.blog-post .read-more-link {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Case Studies */
+
+article.case-study {
+	clear: both;
+	margin:	40px 0 0;
+}
+
+aside.case-study-sidebar {
+	float:left;
+	width: 314px;
+	margin: 0 40px 0 0;
+}
+
+aside.case-study-sidebar h5 {
+	color: #999;
+	font-size: 16px; 
+	font-weight: normal;
+	line-height: 1.33333;
+	margin: 0 0 12px;
+}
+
+aside.case-study-sidebar h6 {
+	font-size: 16 px; 
+	font-weight: normal;
+	line-height: 1.5; 
+	margin: 0 0 50px; 
+}
+
+div.case-study-images {
+	float: left;
+	width: 606px;
+}
+
+div.case-study-images img {
+	border: 1px solid #dddddd; 
+	margin-bottom: 50px;
+}
+
+
+/* Featured work on homepage */
+.featured-work {
+	overflow:auto;
+}
+
+.featured-work h4 {
+	font-family:'Montserrat';
+	text-transform:uppercase;
+	text-align:center;
+	margin:0 0 40px;
+}
+
+.homepage-featured-work {
+    list-style: none;
+}
+.individual-featured-work h3 {
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+.individual-featured-work {
+	width: 300px;
+	margin-right: 0;
+}
+.individual-featured-work  {
+	display: inline-block;
+}
+aside.case-study-sidebar{
+    float: left;
+    width: 314px;
+    margin: 60px 40px 0 0;
+}
+
+aside.case-study-sidebar h2,
+aside.case-study-sidebar h2 a{
+    margin-top: 20px;
+    font-family: 'OpenSans', sans-serif;
+    color: #444;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+aside.case-study-sidebar h6{
+    font-family: 'OpenSans', sans-serif;
+    color: #878787;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+aside #client{
+    color: inherit;
+    font-size: 15.5px;
+    font-weight: 400;
+    margin: 0 0 40px 0;
+}
+
+aside .visit_link {
+    font-weight: 700;
+}
+
+div.case-study-images{
+    margin-top: 60px;
+    float: left;
+    width: 600px;
+}
+
+div.case-study-images img{
+    display: block;
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+}
