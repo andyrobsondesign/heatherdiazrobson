@@ -178,3 +178,218 @@ div.case-study-images img{
     margin-bottom: 50px;
     border: 1px solid #dddddd;
 }
+/*Contact Us Page*/
+#ninja_forms_field_1_div_wrap {
+  float: left;
+  clear: none;
+  width: 47%;
+  margin-right: 35px;
+}
+
+#ninja_forms_field_2_div_wrap {
+  float: right;
+  clear: none;
+  width: 47%;
+}
+
+#ninja_forms_field_3_div_wrap {
+  clear: both;
+}
+
+#ninja_forms_field_5 {
+    background: #45ac9d;
+  color: #fff;
+  font: bold 1.17em/2.77 'Montserrat', 'OpenSans', Arial, sans-serif;
+  display: inline-block;
+  float: right;
+  height: 55px;
+  min-width: 250px;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background 500ms ease;
+  -moz-transition: background 500ms ease;
+  -ms-transition: background 500ms ease;
+  -o-transition: background 500ms ease;
+  transition: background 500ms ease;
+}
+
+#ninja_forms_field_1_label {
+  font-weight: normal;
+  font-size: .7em;
+  width: 30%;
+}
+
+#ninja_forms_field_2_label {
+  font-weight: normal;
+  font-size: .7em;
+}
+
+#ninja_forms_field_3_label {
+  font-weight: normal;
+  font-size: .7em;
+}
+
+#contact-form {
+  margin-left: 150px;
+  margin-right: 150px;
+  padding:0 80px;
+}
+
+
+
+#primary {
+	margin: 0 auto; 
+}
+/* About Page */
+
+.about-us-header {
+ 	background: url("img/about-us-header.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+ 	background-position: center bottom;
+    height: 130px;
+    padding: 100px 0;
+}
+.about-content {
+	margin-bottom: 75px;
+	text-align: center;
+}
+div.about-page {
+	color: white;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0 175px 10px 175px;
+}
+div.content-strategy {
+	width: 55%;
+	float:left;
+	display: inline-block;
+}
+
+div.image-1 {
+	width: 30%;
+	float: left;
+
+}
+div.image-2 {
+	width: 30%;
+	float:right;
+}
+div.influencer-mapping {
+	width: 55%;
+	float: left;
+	display: inline-block;
+}
+div.image-3 {
+	width: 30%;
+	float: left;
+}
+div.social-media-strategy {
+	width: 55%;
+	float: right;
+	display: inline-block;
+}
+div.design-and-development {
+	width: 55%;
+	float:left;
+	display: inline-block;
+}
+div.image-5 {
+	width: 30%;
+	float:right;
+}
+.about-sidebar h6 {
+  line-height: 2.5rem;
+}
+.about-sidebar-1 h6 {
+  line-height: 2.5rem;
+}
+.about p {
+    color: #3b3b3b;
+    font-family: 'OpenSans', Arial, sans-serif;
+    font-size: 1.65rem;
+    margin: 25px 0 40px;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.about-tag .button {
+  padding: 10px 75px; 
+}
+.about-tag {
+  border-top: 1px solid #bfbfbf;
+  text-align: center;
+  clear: both;
+  padding: 20px 35px;
+  margin-bottom: 100px;
+}
+.about-tag h2 {
+  float: left;
+  display: inline-block;
+  margin-left: 100px;
+}
+.about-tag a {
+  float: right;
+  display: inline-block;
+  margin-top: 25px;
+  margin-right: 100px;
+}
+.about-tag .button {
+  padding: 10px 75px; 
+}
+
+.about-images-1:last-of-type {
+  margin-bottom: 100px;
+}
+.widget-area h3 {
+  color: #383838;
+  font-size: 2.4rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: bold;
+  margin: 38px 0 20px;
+  line-height: 3rem;
+}
+.widget-area a {
+  display: none;
+}
+
+.widget-area h4 a {
+  display: inline;
+}
+
+.tweets ul {
+  color: #3b3b3b; 
+  font-family: 'OpenSans', Arial, sans-serif;
+  font-weight: 400;
+  margin-bottom: 30px; 
+  padding: 0px; 
+  vertical-align: baseline;
+}
+
+.tweets li {
+  font-weight: 400;
+  font-size: 1.65rem;
+  line-height: 1.75em;
+  letter-spacing: 0.25px;
+}
+
+.textwidget {
+  font-size: 1.6rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #45ac9d;
+  text-transform: uppercase; 
+}
+
+.textwidget h4 a {
+  margin-left: -40px;
+  font-size: 1.6rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: bold;
+  color: #45ac9d;
+  text-transform: uppercase; 
+}
+.widget-area h4 {
+  margin-left: 40px;
+}
+.social-media-navigation {
+	display: inline-block;
+}
