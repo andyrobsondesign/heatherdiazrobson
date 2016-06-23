@@ -36,7 +36,7 @@
 }
 
 .site-footer .site-info {
-	border-top: 1px dotted #e3e1e1;
+	border-top: 1px dotted #333;
 	padding-top:20px;
 	margin-top:40px;
 }
@@ -76,7 +76,7 @@ a.button, a.button:link {
 
 }
 #masthead {
-    background: none repeat scroll 0 0 #45ac9d;
+    background: none repeat scroll 0 0 #333;
     color: white;
     height: 30px;
     padding: 10px 0;
