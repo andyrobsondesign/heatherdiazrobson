@@ -1,0 +1,185 @@
+/*
+ Theme Name:   Accelerate2 Theme Child
+ Theme URI:    http://example.com/accelerate-theme-child/
+ Description:  Accelerate2 Child Theme - Accelerate
+ Author:       Your Name!
+ Author URI:   http://example.com
+ Template:     accelerate2-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  accelerate-theme-child
+*/
+@import url("../accelerate2-theme/style.css");
+/* Homepage Styles */
+.home-page {
+    background: url("img/reclaimed.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 440px;
+    margin: 0 0 80px;
+    padding: 100px 0;
+}
+
+.homepage-hero {
+	text-align:center;
+}
+
+.homepage-hero h1 {
+	color:white;
+	font-weight:bold;	
+}
+
+.homepage-hero h3 {
+    color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 16px 0 80px;
+}
+
+.site-footer .site-info {
+	border-top: 1px dotted #e3e1e1;
+	padding-top:20px;
+	margin-top:40px;
+}
+
+.site-footer {
+    clear: both;
+    color: #909090;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 40px auto;
+}
+
+.site-description {
+	width:50%;
+	float:left;
+}
+
+.social-media-navigation {
+	float:right;
+	width:20%;
+}
+
+.button {
+    background: none repeat scroll 0 0 #333;
+    color: white;
+    font-family: "montserrat";
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 80px;
+    text-align: center;
+}
+
+a.button, a.button:link {
+	color:white;
+	align: center;
+
+
+}
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+    color: white;
+    height: 30px;
+    padding: 10px 0;
+}
+#masthead nav ul {
+	margin:0;
+}
+#masthead nav ul li {
+	float:left;
+	margin:0 10px;
+	margin-bottom:10px;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color:#45ac9d;
+}
+
+.main-navigation {
+  clear: both;
+  display: block;
+  float: left;
+  width: 100%;
+}
+.main-navigation ul {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.main-navigation li {
+  float: left;
+  position: relative;
+}
+.main-navigation a {
+  display: block;
+  text-decoration: none;
+}
+.main-navigation ul ul {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  float: left;
+  position: absolute;
+  top: 1.5em;
+  left: -999em;
+  z-index: 99999;
+}
+.main-navigation ul ul ul {
+  left: -999em;
+  top: 0;
+}
+.main-navigation ul ul a {
+  width: 200px;
+}
+.main-navigation ul ul li {
+  width: 100%;
+}
+.main-navigation li:hover > a, .main-navigation li.focus > a {}
+.main-navigation ul ul:hover > a, .main-navigation ul ul .focus > a {}
+.main-navigation ul ul a:hover, .main-navigation ul ul a.focus {}
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
+  left: auto;
+}
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+  left: 100%;
+}
+.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a, .main-navigation .current-menu-ancestor > a {}
+
+/* Small menu. */
+
+.menu-toggle, .main-navigation.toggled ul {
+  display: block;
+}
+@media screen and (min-width: 37.5em) {
+  .menu-toggle {
+    display: none;
+  }
+  .main-navigation ul {
+    display: block;
+  }
+}
+.site-main .comment-navigation, .site-main .posts-navigation, .site-main .post-navigation {
+  margin: 0 0 1.5em;
+  overflow: hidden;
+}
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
+  float: left;
+  width: 50%;
+}
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+.site-title {
+  font-size: 24px;
+  line-height: 52px;
+  color: #666;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+.site-title:hover {
+  color: #333;
+}
+#site-navigation .module.left {
+  padding-left: 15px;
+}
+
