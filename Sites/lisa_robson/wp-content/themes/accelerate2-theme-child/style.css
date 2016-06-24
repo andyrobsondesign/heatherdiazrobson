@@ -182,4 +182,286 @@ a.button, a.button:link {
 #site-navigation .module.left {
   padding-left: 15px;
 }
+div.left {
+    padding-left: 2%;
+}
+
+footer.navigation.container {
+    border: none;
+}
+
+.entry-footer {
+  clear: both;
+}
+
+/* Alignments */
+
+
+.alignleft {
+	display: inline;
+	float: left;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+}
+
+.aligncenter {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+	margin: 0.4em 1.6em 1.6em 0;
+}
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+	margin: 0.4em 0 1.6em 1.6em;
+}
+
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+	clear: both;
+	margin-top: 0.4em;
+	margin-bottom: 1.6em;
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+	margin-bottom: 1.2em;
+}
+/* Pages */
+
+.entry-title {
+    padding-bottom: 20px;
+}
+
+.narrow-contact {
+    padding-top: 55px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* Sidebar */
+
+
+.sidebar .widget ul {
+    list-style-type: none;
+}
+
+aside.sidebar li {
+    list-style-type: none;
+    /*padding-left: 0;*/
+}
+aside.sidebar li a {
+    padding-left: 0;
+}
+
+.widgettitle {
+    color: #45ac9d;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 20px 0 5px;
+}
+
+.widget_search {
+    border-bottom: 1px solid #BFBFBF;
+    padding: 28px 31px;
+    position: relative;
+}
+
+.widget li {
+    color: #333;
+    margin-left: -20px;
+}
+
+/* MailChimp Widget */
+#mc4wp_widget-2 {
+    padding-top: 10px;
+}
+
+#mc4wp_form_widget-2 h2.widget-title {
+    font-size: 1.2em;
+    padding: 15px;
+    /*background-color: #fcfae8;*/
+    text-align: center;
+    border-left: 3px solid #828080;
+    border-right: 3px solid #828080;
+    margin-bottom: 30px;
+}
+
+#mc4wp_widget-2 label {
+    display: none;
+}
+
+#mc4wp-form-1 p:nth-child(2) {
+  text-align: center;
+}
+
+#mc4wp-form-1 input[type="submit"]{
+  width: 100%;
+  background-color: #45AC9D;
+  padding: 10px;
+  font-size: 0.9em;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid #A8A6A6;
+}
+#mc4wp-form-1 input#mc4wp_email::-webkit-input-placeholder{
+    font-size: 0.9em;
+}
+/* Contact Us Page */
+
+#ninja_forms_form_1_all_fields_wrap label {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+#ninja_forms_field_1_div_wrap,
+#ninja_forms_field_2_div_wrap {
+    width: 48%;
+    float: left;
+    margin-bottom: 4%;
+}
+
+#ninja_forms_field_1, #ninja_forms_field_2 {
+    height: 40px;
+}
+
+#ninja_forms_field_2_div_wrap {
+    margin-left: 4%;
+}
+
+#ninja_forms_field_5 {
+    float: right;
+    color: #FFF;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #45AC9D;
+    padding: 15px 80px;
+}
+
+.ninja-forms-required-items {
+    display: none;
+}
+
+.ninja-forms-req-symbol {
+    display: none;
+}
+
+.reply-contact {
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+.reply-contact h2 {
+    color: #45AC9D;
+}
+
+*/
+
+/* About Page */
+
+.hero-about {
+    background: url("img/taxi-photo-about.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 360px;
+}
+.hero-text h3 {
+    padding-top: 3em;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 0.75px;
+    color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 6px 0 2em;
+}
+
+.main-color {
+    color: #45AC9D;
+    font-weight: 600;
+}
+
+.about-intro {
+    text-align: center;
+    padding: 40px 0 60px 0;
+}
+.about-intro h5{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #555;
+    font-weight: 700;
+}
+
+.about-section,
+.service-section {
+    clear: both;
+    overflow: hidden;
+}
+
+.about-section h2,
+.service-section h2 {
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+/* Testing about page */
+.service-section:nth-child(odd) .service-image {
+    float: left;
+}
+
+.service-section:nth-child(even) .service-image {
+    float: right;
+}
+
+
+.service-description {
+    margin-top: 60px;
+    float: left;
+    padding: .5em;
+    width: 67%;
+}
+
+.service-description p{
+    color: #555;
+}
+.service-image {
+    width: 29%;
+    margin-top: 80px;
+}
+
+.align-left {
+    float: left;
+}
+.align-right {
+    float: right;
+}
+
+.about-contact {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px dotted #e3e1e1;
+}
+
+.contact-description {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.contact-button {
+    margin-left: 10%;
+    display: inline-block;
+}
+
 
