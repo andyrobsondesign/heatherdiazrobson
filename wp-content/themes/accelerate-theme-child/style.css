@@ -28,3 +28,27 @@ padding: 100px 0;
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
+
+/*BLOG Styles on homepage*/
+.blog-post {
+	width: 50%;
+}
+
+.blog-post h4 { /*style for 'from the blog' */
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+.blog-post h2 { /*style for blog post title */
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+.blog-post .read-more-link { /*read more link style */
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
