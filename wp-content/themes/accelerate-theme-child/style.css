@@ -11,44 +11,310 @@
 */
 @import url("../accelerate-theme/style.css");
 
-/*Header Image */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-height: 440px;
-margin: 0 0 80px;
-padding: 100px 0;
 }
 
-/*Changing Navigation Bar Background Colr */
 #masthead {
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-/*Swap Button Color */
+/* #masthead nav ul li {
+  float: left;
+  margin:0 10px 0 0;
+} */
+
+#primary-navigation ul li{
+	display: inline-block;
+	margin-left: 35px;
+}
+
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-/*BLOG Styles on homepage*/
 .blog-post {
-	width: 50%;
+    width: 50%;
 }
 
-.blog-post h4 { /*style for 'from the blog' */
-	font-size: 16px;
-	font-family: 'Montserrat';
-	color: #a6a6a6;
-	text-transform: uppercase;
+.blog-post h4 {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #a6a6a6;
+    text-transform: uppercase;
 }
-.blog-post h2 { /*style for blog post title */
-	font-size: 24px;
-	font-family: 'Montserrat';
-	font-weight: bold;
+
+.blog-post h2 {
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
-.blog-post .read-more-link { /*read more link style */
-	font-size: 24px;
-	font-family: 'Montserrat';
-	font-weight: bold;
-	color: #45ac9d;
-	text-transform: uppercase;
+
+.blog-post .read-more-link {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #45ac9d;
+    text-transform: uppercase;
+}
+
+/*Case Studies*/
+
+article.case-study {
+  margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+  float: left;
+  width: 314px;
+  margin: 0 20px 0 0;
+}
+
+div.case-study-images {
+  float: left:
+  width: 600px;
+}
+
+div.case-study-images img {
+  display: block;
+  margin-bottom: 50px;
+  border: 1px solid #dddddd;
+}
+
+/*adding anns styles*/
+
+aside.case-study-sidebar{
+    float: left;
+    width: 314px;
+    margin: 60px 40px 0 0;
+}
+
+aside.case-study-sidebar h2,
+aside.case-study-sidebar h2 a{
+    margin-top: 20px;
+    font-family: 'OpenSans', sans-serif;
+    color: #444;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+aside.case-study-sidebar h6{
+    font-family: 'OpenSans', sans-serif;
+    color: #878787;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+aside #client{
+    color: inherit;
+    font-size: 15.5px;
+    font-weight: 400;
+    margin: 0 0 40px 0;
+}
+
+aside .visit_link {
+    font-weight: 700;
+}
+
+div.case-study-images{
+    margin-top: 60px;
+    float: left;
+    width: 600px;
+}
+
+div.case-study-images img{
+    display: block;
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+}
+
+/* front page case study */
+
+figure.homepage-featured-work {
+  display: block;
+}
+
+.featured-work {
+  display: inline-block;
+  width: 100%;
+}
+ul.homepage-featured-work {
+  list-style-type: none;
+}
+
+.featured-work h4 {
+  text-align: center;
+}
+
+.featured-work h5 {
+  margin-left: 50px;
+}
+
+.menu-social-media-nav-container {
+  display: inline-block;
+}
+
+#menu-social-media-nav ul li {
+  list-style-type: none;
+}
+
+/* style contact form */
+#ninja_forms_field_1_div_wrap {
+  float: left;
+  clear: none;
+  width: 47%;
+  margin-right: 35px;
+}
+
+#ninja_forms_field_2_div_wrap {
+  float: left;
+  clear: none;
+  width: 47%;
+}
+
+#ninja_forms_field_3_div_wrap {
+  clear: both;
+}
+
+#ninja_forms_field_5 {
+    background: #45ac9d;
+  color: #fff;
+  font: bold 1.17em/2.77 'Montserrat', 'OpenSans', Arial, sans-serif;
+  display: inline-block;
+  float: right;
+  height: 55px;
+  min-width: 250px;
+  padding: 0 20px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: background 500ms ease;
+  -moz-transition: background 500ms ease;
+  -ms-transition: background 500ms ease;
+  -o-transition: background 500ms ease;
+  transition: background 500ms ease;
+}
+
+#ninja_forms_field_1_label {
+  font-weight: normal;
+  font-size: 90%;
+}
+
+#ninja_forms_field_2_label {
+  font-weight: normal;
+  font-size: 90%;
+}
+
+#ninja_forms_field_3_label {
+  font-weight: normal;
+  font-size: 90%;
+}
+
+#contact-form {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/* About Page */
+
+.hero-about {
+    background: url("img/taxi-photo-about.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 360px;
+    margin: 0 0 10px;
+}
+.hero-text h3 {
+    padding-top: 80px;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: 0.75px;
+    color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
+    margin: 16px 0 80px;
+}
+
+.main-color {
+    color: #45AC9D;
+    font-weight: 600;
+}
+
+.about-intro {
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+.about-intro h5{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #555;
+    font-weight: 700;
+}
+
+.about-section h2 {
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.service-description {
+    margin-top: 60px;
+    display: inline-block;
+    padding: 10px;
+    width: 67%;
+}
+
+.service-description p{
+    color: #555;
+}
+.service-image {
+    width: 29%;
+    margin-top: 80px;
+}
+
+.align-left {
+    float: left;
+}
+.align-right {
+    float: right;
+}
+
+.about-contact {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px dotted #e3e1e1;
+}
+
+.contact-description {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.contact-button {
+    margin-left: 10%;
+    display: inline-block;
+}
+
+/* 404 */
+#lost {
+  height: 500px;
+  background: url("img/mick_jagger_in_red.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+  border: 6px solid red;
+}
+.text-404 {
+  color: red;
+  text-align: center;
+}
+
+/*twitter*/
+
+.widget-title {
+  margin-top: 5px;
+}
+
+/*mailchimp*/
+button, input, select, textarea {
+  color: #45ac9d;
+}
+
+.mc4wp-form button,{
+  background: #45ac9d;
 }
