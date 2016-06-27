@@ -159,60 +159,53 @@ ul.homepage-featured-work {
   list-style-type: none;
 }
 
-/* style contact form */
-#ninja_forms_field_1_div_wrap {
-  float: left;
-  clear: none;
-  width: 47%;
-  margin-right: 35px;
+/* Contact Us Page */
+
+#ninja_forms_form_1_all_fields_wrap label {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+#ninja_forms_field_1_div_wrap,
+#ninja_forms_field_2_div_wrap {
+    width: 48%;
+    float: left;
+    margin-bottom: 4%;
+}
+
+#ninja_forms_field_1, #ninja_forms_field_2 {
+    height: 40px;
 }
 
 #ninja_forms_field_2_div_wrap {
-  float: left;
-  clear: none;
-  width: 47%;
-}
-
-#ninja_forms_field_3_div_wrap {
-  clear: both;
+    margin-left: 4%;
 }
 
 #ninja_forms_field_5 {
-    background: #45ac9d;
-  color: #fff;
-  font: bold 1.17em/2.77 'Montserrat', 'OpenSans', Arial, sans-serif;
-  display: inline-block;
-  float: right;
-  height: 55px;
-  min-width: 250px;
-  padding: 0 20px;
-  text-align: center;
-  text-decoration: none;
-  -webkit-transition: background 500ms ease;
-  -moz-transition: background 500ms ease;
-  -ms-transition: background 500ms ease;
-  -o-transition: background 500ms ease;
-  transition: background 500ms ease;
+    float: right;
+    color: #FFF;
+    font-family: 'Montserrat', serif;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #45AC9D;
+    padding: 15px 80px;
 }
 
-#ninja_forms_field_1_label {
-  font-weight: normal;
-  font-size: 90%;
+.ninja-forms-required-items {
+    display: none;
 }
 
-#ninja_forms_field_2_label {
-  font-weight: normal;
-  font-size: 90%;
+.ninja-forms-req-symbol {
+    display: none;
 }
 
-#ninja_forms_field_3_label {
-  font-weight: normal;
-  font-size: 90%;
+.reply-contact {
+    text-align: center;
+    padding-bottom: 20%;
 }
 
-#contact-form {
-  margin-left: 150px;
-  margin-right: 150px;
+.reply-contact h2 {
+    color: #45AC9D;
 }
 
 /* About Page */
@@ -296,7 +289,7 @@ ul.homepage-featured-work {
 /* 404 */
 #lost {
   height: 500px;
-  background: url("img/mick_jagger_in_red.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+  background: url("img/404page.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
   border: 6px solid red;
 }
 .text-404 {
