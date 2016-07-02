@@ -1,7 +1,7 @@
 /*
  Theme Name:   Accelerate Theme Child
- Theme URI:    http://example.com/accelerate-theme-child/
- Description:  Accelerate Child Theme - Accelerate
+ Theme URI:    http://example.com/accelerate-child/
+ Description:  Accelerate Theme Child - Accelerate
  Author:       Your Name!
  Author URI:   http://example.com
  Template:     accelerate-theme
@@ -9,305 +9,303 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  accelerate-theme-child
 */
+
 @import url("../accelerate-theme/style.css");
 
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
 
-#masthead {
-    background: none repeat scroll 0 0 #45ac9d;
-}
-
-/* #masthead nav ul li {
-  float: left;
-  margin:0 10px 0 0;
-} */
-
-#primary-navigation ul li{
-	display: inline-block;
-	margin-left: 35px;
-}
 
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-.blog-post {
-    width: 50%;
+#masthead{
+	background: none repeat scroll 0 0 #45AC9D;
 }
 
-.blog-post h4 {
+#masthead nav ul {
+	list-style-type:none;
+}
+
+#masthead nav ul li{
+	list-style-type: none;
+	display: inline;
+	font-family: 'Open Sans';
+	font-size: 14pt;
+	font-weight: normal;
+	line-height: 27.5pt;
+	text-transform: uppercase;
+	margin-right: 40px;
+}
+	
+
+.blog-post {
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+.blog-post  h4 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.blog-post h2 {
+	font-size: 24px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+}
+.blog-post h4, .PI_SimpleTwitterTweets h3 {
     font-size: 16px;
     font-family: 'Montserrat';
     color: #a6a6a6;
     text-transform: uppercase;
 }
 
-.blog-post h2 {
-    font-size: 24px;
-    font-family: 'Montserrat';
-    font-weight: bold;
+.blog-post .read-more-link {
+	font-size: 15px;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	color: #45ac9d;
+	text-transform: uppercase;
 }
 
-.blog-post .read-more-link {
-    font-size: 16px;
+.widget-area { /*twitter text*/
+	float:right;
+	width:40%;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 18px;
+	color: #a6a6a6;
+}
+.tweet-module {
+    width: 45%;
+    float: right;
+	font-size: 24px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+}
+
+.tweets { /*tweet text*/
+	color: black;
+   font-size:18px;	
+   font-size: inherit;
+ 
+}
+
+ul.tweets li{ /*twitter feed*/
+   font-family: 'Montserrat'; 
+   font-style: normal;
+	font-size:16 px;	
+	font-color:black;
+}
+
+.tweets li em{
+    font-family: 'Montserrat'; 
+    font-style: normal;
+	font-color:black;
+	
+}
+
+ a.follow-us-link {
+    font-size: 15px;
     font-family: 'Montserrat';
-    font-weight: bold;
     color: #45ac9d;
     text-transform: uppercase;
+	float: right;
+}
+#pi_simpletwittertweets h3  { 
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #a6a6a6;
+	text-transform: uppercase;
+    
+}
+#pi_simpletwittertweets-2 h3::after { /*@accelerate*/
+    display: block;
+    color: black;
+    margin-top:28px;
+    font-size: 22px;
+    font-family: 'Montserrat';
+   margin-bottom: 25px;
+    content: "@Accelerate";
 }
 
-/*Case Studies*/
+/* Case Studies */
 
 article.case-study {
-  margin: 40px 0 0;
+	margin:40px 0 0;
 }
 
 aside.case-study-sidebar {
-  float: left;
-  width: 314px;
-  margin: 0 20px 0 0;
+	float:left;
+	width:314px;
+	margin: 0 40px 0 0;
 }
 
 div.case-study-images {
-  float: left:
-  width: 600px;
+	float:left;
+	width:605px;
 }
 
 div.case-study-images img {
-  display: block;
-  margin-bottom: 50px;
-  border: 1px solid #dddddd;
+	display:block;
+	margin-bottom:50px;
+	border:1px solid #dddddd;
 }
 
-/*adding anns styles*/
-
-aside.case-study-sidebar{
-    float: left;
-    width: 314px;
-    margin: 60px 40px 0 0;
+li.individual-featured-work {
+	display:inline-block;
+	margin-right:10px;
 }
 
-aside.case-study-sidebar h2,
-aside.case-study-sidebar h2 a{
-    margin-top: 20px;
-    font-family: 'OpenSans', sans-serif;
-    color: #444;
-    font-size: 26px;
-    font-weight: 600;
+h4.center {
+	text-align: center;
+	font-color: black;
 }
 
-aside.case-study-sidebar h6{
-    font-family: 'OpenSans', sans-serif;
-    color: #878787;
-    font-weight: 400;
-    font-size: 14px;
-    margin-top: 0;
+/* Contact Form */
+
+.contact-name .contact-email {
+	float:left;
+	width: 45%;
+	font-family: 'Montserrat';
+	font-weight: normal;
 }
 
-aside #client{
-    color: inherit;
-    font-size: 15.5px;
-    font-weight: 400;
-    margin: 0 0 40px 0;
+.name-contact-wrap {
+	width:48%;
+	float:left;
 }
 
-aside .visit_link {
-    font-weight: 700;
+.email-contact-wrap {
+	width: 48%;
+	float:left;
+	margin-left:4%;
 }
 
-div.case-study-images{
-    margin-top: 60px;
-    float: left;
-    width: 600px;
+.contact-send {
+	float:right;
+	width:45%;
+	font-family: 'Montserrat';
+	font-weight: normal;
+    background: none repeat scroll 0 0 #45ac9d;
+	color: white;
+	padding: 18px 70px;
 }
 
-div.case-study-images img{
-    display: block;
-    margin-bottom: 50px;
-    border: 1px solid #dddddd;
+.narrow-contact-us {
+	padding-top: 55px;
+	width: 75%;
+	margin: 0 auto;
 }
 
-/* front page case study */
+/* About page */
 
-figure.homepage-featured-work {
-  display: block;
-}
-
-.featured-work {
-  display: inline-block;
-  width: 100%;
-}
-ul.homepage-featured-work {
-  list-style-type: none;
+.services_header {
+	text-align:center;
+	margin:0% 25% 0% 25%;
+	width:50%;
 }
 
-.featured-work h4 {
-  text-align: center;
+.left-text {
+	float:left;
+	width:66%;
 }
 
-.featured-work h5 {
-  margin-left: 50px;
+.left-image {
+	float:left;
+	width:33%;
+	padding:10px 0px 0px 0px;
 }
 
-.menu-social-media-nav-container {
-  display: inline-block;
+.right-text {
+	float:right;
+	width:66%;
 }
 
-#menu-social-media-nav ul li {
-  list-style-type: none;
+.right-image{
+	float:right;
+	width:33%;
+	padding:10px 0px 0px 0px;
 }
 
-/* Contact Us Page */
-
-#ninja_forms_form_1_all_fields_wrap label {
-    font-weight: normal;
-    font-size: 0.8em;
+.top-image {
+	height: 150px;
 }
 
-#ninja_forms_field_1_div_wrap,
-#ninja_forms_field_2_div_wrap {
-    width: 48%;
-    float: left;
-    margin-bottom: 4%;
+.about-accelerate {
+	color: white;
+	text-align: center;
+	width: 48%;
+	margin-left: 300px;
+	font-family: 'Montserrat';
+	text-weight: normal;
 }
 
-#ninja_forms_field_1, #ninja_forms_field_2 {
-    height: 40px;
+.green {
+	color: #45ac9d;
 }
 
-#ninja_forms_field_2_div_wrap {
-    margin-left: 4%;
+.bottom {
+	display:inline-block;
 }
 
-#ninja_forms_field_5 {
-    float: right;
-    color: #FFF;
-    font-family: 'Montserrat', serif;
-    font-weight: bold;
-    font-size: 18px;
-    background-color: #45AC9D;
-    padding: 15px 80px;
+.interested {
+	margin-left: 100px;
 }
 
-.ninja-forms-required-items {
-    display: none;
+.contact-btn {
+    background: #45ac9d;
+	margin-left: 30px;
+	padding: 0px 50px 30px 50px;
+	color: white;
+	height: 50px;
 }
 
-.ninja-forms-req-symbol {
-    display: none;
+/* 404 page */
+
+.error404 {
+	background: url(img/404img.jpg) no-repeat scroll;
+	width: 100%;	
 }
 
-.reply-contact {
-    text-align: center;
-    padding-bottom: 20%;
+.sorry {
+	padding:250px 100px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	width: 300px;
 }
 
-.reply-contact h2 {
-    color: #45AC9D;
+/* Footer icons */
+
+.social-media-navigation {
+	display: inline-block;
+	font-color:black;
+}
+.sidebar .widget ul {
+    list-style-type: none;
+	font-color:black;
 }
 
-/* About Page */
-
-.hero-about {
-    background: url("img/taxi-photo-about.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-    height: 360px;
-    margin: 0 0 10px;
+aside.sidebar li {
+    list-style-type: none;
+    /*padding-left: 0;*/
 }
-.hero-text h3 {
-    padding-top: 80px;
-    text-align: center;
-    line-height: 1.5em;
-    letter-spacing: 0.75px;
-    color: white;
-    font-family: "open sans";
-    font-size: 24px;
-    font-weight: normal;
-    margin: 16px 0 80px;
+aside.sidebar li a {
+    padding-left: 0;
 }
 
-.main-color {
-    color: #45AC9D;
-    font-weight: 600;
-}
 
-.about-intro {
-    text-align: center;
-    padding: 30px 0 0 0;
-}
-.about-intro h5{
-    text-transform: uppercase;
-    padding-bottom: 10px;
-    color: #555;
-    font-weight: 700;
-}
 
-.about-section h2 {
-    font-weight: 600;
-    padding-bottom: 15px;
-}
 
-.service-description {
-    margin-top: 60px;
-    display: inline-block;
-    padding: 10px;
-    width: 67%;
-}
-
-.service-description p{
-    color: #555;
-}
-.service-image {
-    width: 29%;
-    margin-top: 80px;
-}
-
-.align-left {
-    float: left;
-}
-.align-right {
-    float: right;
-}
-
-.about-contact {
-    margin-top: 50px;
-    text-align: center;
-    border-top: 1px dotted #e3e1e1;
-}
-
-.contact-description {
-    margin-top: 30px;
-    display: inline-block;
-}
-
-.contact-button {
-    margin-left: 10%;
-    display: inline-block;
-}
-
-/* 404 */
-#lost {
-  height: 500px;
-  background: url("img/404page.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-  border: 6px solid red;
-}
-.text-404 {
-  color: red;
-  text-align: center;
-}
-
-/*twitter*/
-
-.widget-title {
-  margin-top: 5px;
-}
-
-/*mailchimp*/
-button, input, select, textarea {
-  color: #45ac9d;
-}
-
-.mc4wp-form button,{
-  background: #45ac9d;
+/* MailChimp Widget */
+#mc4wp_widget-2 {
+    padding-top: 10px;
 }
