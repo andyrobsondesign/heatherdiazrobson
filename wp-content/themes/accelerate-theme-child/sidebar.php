@@ -8,12 +8,11 @@
  */
 ?>
 
+
 <aside class="sidebar">
-	<?php if ( is_active_sidebar( 'sidebar-3' ) ) : ?>
-		<position:right>
-		<div id="secondary" class="widget-area" role="link">
-			<?php dynamic_sidebar( 'sidebar-3' ); ?>	
-		</div>
-	<?php endif; ?>
+	
+	<?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+		<?php dynamic_sidebar( 'sidebar-1' ); ?>	
+			<?php endif; ?>
 
 </aside>

@@ -13,7 +13,6 @@ Template Name: about-page
  */
 get_header(); ?>
 
-
 <div class="about-us-header">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class="about-page">
@@ -43,7 +42,7 @@ get_header(); ?>
 
 <section class="about-section">
 	<div class="image-1 align-left">
-		<?php echo wp_get_attachment_image( $image_1, $medium ); ?>
+		<?php echo wp_get_attachment_image( $image_1, $size ); ?>
 	</div>
 	<div class="content-strategy">
 		<h2>Content Strategy</h2> 
@@ -54,7 +53,7 @@ get_header(); ?>
 
 <section class="about-section">
 	<div class="image-2 align-right">
-		<?php echo wp_get_attachment_image( $image_2, $medium ); ?>
+		<?php echo wp_get_attachment_image( $image_2, $size ); ?>
 	</div>
 	<div class="influencer-mapping">
 		<h2>Influencer Mapping</h2>
@@ -64,7 +63,7 @@ get_header(); ?>
 
 <section class="about-section">
 	<div class="image-3 align-left">
-		<?php echo wp_get_attachment_image( $image_3, $medium ); ?>
+		<?php echo wp_get_attachment_image( $image_3, $size ); ?>
 	</div>
 	<div class="social-media-strategy">
 		<h2>Social Media Strategy</h2>
@@ -73,22 +72,28 @@ get_header(); ?>
 </section>
 	
 <section class="about-section">
-	<div class="design-and-development">
+	<div class="image-4 align-right">
+		<?php echo wp_get_attachment_image( $image_4, $size ); ?>
+	</div>
+	<div class="Design_and_Development">
 		<h2>Design & Development</h2>
 		<p><?php echo $design_and_development; ?></p>
-	</div>
-	<div class="image-2 align-right">
-			<?php echo wp_get_attachment_image( $image_4, $medium ); ?>
+		
+		
+			
 		</div>
+	</div>
 	</section>
 
 	<?php endwhile; //end of the loop /?>
-	
+	<div>
 	<section class="site-content">
 	      <div class="about-tag">
 			
 	          <h2>Interested in working with us?<?php echo $contact_us; ?></h2>
+			  <br>
 	          <a class="button" href="<?php echo home_url(); ?>/contact-us">Contact Us</a>
+		  </div>
 	      </div><!-- about-tag -->
 	    </div><!-- #content -->
 

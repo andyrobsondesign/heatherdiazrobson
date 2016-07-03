@@ -12,6 +12,42 @@
 
 @import url("../accelerate-theme/style.css");
 
+.site {
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+img {
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+::selection {
+    background: #45AC9D;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #45AC9D;
+    color: #fff;
+    text-shadow: none;
+}
+
+.header-main {
+  overflow: hidden;
+}
+
+.site-content, 
+.site-footer {
+    width: 100%;
+    max-width: 960px;
+    /*overflow: hidden; */
+}
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
 }
@@ -93,8 +129,8 @@
 
 .tweets { /*tweet text*/
 	color: black;
-   font-size:18px;	
-   font-size: inherit;
+   font-size:16px;	
+   
  
 }
 
@@ -110,14 +146,6 @@ ul.tweets li{ /*twitter feed*/
     font-style: normal;
 	font-color:black;
 	
-}
-
- a.follow-us-link {
-    font-size: 15px;
-    font-family: 'Montserrat';
-    color: #45ac9d;
-    text-transform: uppercase;
-	float: right;
 }
 #pi_simpletwittertweets h3  { 
 	font-size: 16px;
@@ -207,65 +235,108 @@ h4.center {
 
 /* About page */
 
-.services_header {
-	text-align:center;
-	margin:0% 25% 0% 25%;
-	width:50%;
+.hero-about {
+    background: url("img/taxi-photo-about.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 360px;
+    padding-top: 1px;
+}
+.hero-text h3 {
+    padding-top: 3em;
+    text-align: center;
+    letter-spacing: 0.75px;
+    color: white;
+    font-family: "open sans";
+    font-size: 24px;
+    font-weight: normal;
 }
 
-.left-text {
-	float:left;
-	width:66%;
+.main-color {
+    color: #45AC9D;
+    font-weight: 600;
 }
 
-.left-image {
-	float:left;
-	width:33%;
-	padding:10px 0px 0px 0px;
+.about-intro {
+    text-align: center;
+	display: inline-block;
+	
+}
+.about-intro h5{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: #555;
+    font-weight: 600;
+	display: inline-block;
 }
 
-.right-text {
-	float:right;
-	width:66%;
+.about-section,
+.service-section {
+	display: inline-block;
+	align:right;
+	
 }
 
-.right-image{
-	float:right;
-	width:33%;
-	padding:10px 0px 0px 0px;
+.about-section h2,
+.service-section h2 {
+    font-weight: 600;
+	display: inline-block;
+	align:left;
+	
 }
 
-.top-image {
-	height: 150px;
+.service-section:nth-child(odd) .service-image {
+    float: left;
+
+	
 }
 
-.about-accelerate {
-	color: white;
-	text-align: center;
-	width: 48%;
-	margin-left: 300px;
-	font-family: 'Montserrat';
-	text-weight: normal;
+.service-section:nth-child(even) .service-image {
+    float: right;
+	
 }
 
-.green {
-	color: #45ac9d;
+.service-description {
+	display: inline-block;
 }
 
-.bottom {
+.service-description p{
+    color: #555;
+	width: 575px;
+	margin-top: 16px;
 	display:inline-block;
+	
+	
+}
+.service-image {
+    width: 29%;
+	display:inline-block;
+	
 }
 
-.interested {
-	margin-left: 100px;
+.align-left {
+    float: left;
+	display: inline-block;
+	
+}
+.align-right {
+    float: right;
+	display: inline-block;
 }
 
-.contact-btn {
-    background: #45ac9d;
-	margin-left: 30px;
-	padding: 0px 50px 30px 50px;
-	color: white;
-	height: 50px;
+.about-contact {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px dotted #e3e1e1;
+	display: inline-block;
+}
+
+.contact-description {
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.contact-button {
+    margin-left: 10%;
+    display: inline-block;
 }
 
 /* 404 page */
@@ -304,8 +375,35 @@ aside.sidebar li a {
 
 
 
-
-/* MailChimp Widget */
-#mc4wp_widget-2 {
-    padding-top: 10px;
+.social-media-navigation {
+    margin-top: -20px; 
 }
+
+ul#menu-social-media-nav {
+    list-style: none;
+}
+
+ul.social-media-menu li {
+    float: left;
+    margin: 0 2px;
+    background: rgba(0,0,0,0.8);
+    width: 50px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8em;
+    border-radius: 100%; 
+    -webkit-border-radius: 100%; 
+    -moz-border-radius: 100%;
+}
+
+ul.social-media-menu li a i {
+    color: white;
+}
+
+
+ul.social-media-menu li a:hover, 
+ul.social-media-menu li a:active {
+    top: 1px; 
+    position: relative; 
+}
+

@@ -66,7 +66,8 @@ get_header(); ?>
 	<aside id="secondary" class="widget-area" role="complementary">
 <?php dynamic_sidebar( 'sidebar-2' ); ?>
 <a href="<?php the_permalink(); ?>" class="follow-us">Follow Us <span>&rsaquo;</span></a>
-	</aside>
+</div>	
 <?php endif; ?>
-
+</div><!-- .site-content -->
+</section><!-- .recent-posts -->
 <?php get_footer(); ?>
